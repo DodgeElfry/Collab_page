@@ -1,1 +1,48 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(23, 23, 122);
+}
 
+.descriptions{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.description1, .description2{
+    display: grid;
+    justify-items: center;
+}
+
+img{
+    height: 20rem;
+    aspect-ratio: 1 / 1;
+}
+
+h2{
+    text-align: center;
+}
+
+.competences{
+    margin-top: 100px;
+}
+
+.stack{
+    padding: 100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.competence{
+    display: grid;
+    justify-items: center;
+}
+
+.logo{
+    height: 10rem;
+}
